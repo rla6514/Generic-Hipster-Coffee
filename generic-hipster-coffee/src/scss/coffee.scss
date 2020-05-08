@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+
+.coffee{
+    margin: 1em 5em;
+}
+
+.coffee a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.coffe-origin{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    @media screen and (min-width:1200px){
+        flex-wrap: wrap;  
+        width: 100%;
+        
+    }
+}
+
+
+
+#origin{
+    width: 100%;
+    text-align: left;
+    background-color: lightgray;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+#description{
+    width: 100%;
+    text-align: left;
+    background-color: lightgray;
+    background-size: cover;
+    margin-top: -3px;
+    padding: 1.5em 1em;
+    
+}
+
+.box{
+    width: 45%; 
+        display: flex; 
+        flex-wrap: wrap;
+    @media screen and (min-width:1200px){
+        width: 49%; 
+        display: flex; 
+        flex-wrap: wrap; 
+    }
+    
+}
+
+.box:nth-child(even){
+    margin-left: 1em;
+}
+
+
+
+
+
+
+

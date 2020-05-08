@@ -9,17 +9,26 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: rgb(231, 223, 223);   
+    color: rgb(231, 223, 223); 
+    padding: 3em 8em;  
 }
 
 .footer .footer-list{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 .footer a{
-    color: rgb(17, 147, 187);
+    color: rgb(17, 147, 187);  
+}
+
+.footer-list a{
+    margin-right: 3em;
+    margin-bottom: 1em;
 }
 
 p{

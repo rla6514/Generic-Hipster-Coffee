@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+.home{
+    padding: 2em 6em;
+    width: 70%;
+}
+
+.shop{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.shop p{
+    text-align: start;
+    font-size: 5em;
+}
+
+img{
+    width: 100%;   
+}
+
+
+.shop p span{
+    font-size: 3rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info p{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info span{
+    font-size: 3rem;
+}
